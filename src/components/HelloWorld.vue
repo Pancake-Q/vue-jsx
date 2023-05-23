@@ -28,15 +28,15 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
+  <Demo/>
 </template>
 
-<script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+<script setup>
+const Demo=() => (
+    <div>
+        hello world
+    </div>
+)
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
