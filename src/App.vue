@@ -1,12 +1,10 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <terminal-demo></terminal-demo>
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-
-
+import TerminalDemo from "@/components/TerminalDemo.vue";
 </script>
 
 <style>

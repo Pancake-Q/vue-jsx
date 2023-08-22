@@ -10,7 +10,11 @@
   "dependencies": {
     "@vue/babel-plugin-jsx": "^1.1.1",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "xterm": "^5.2.1",
+    "xterm-addon-attach": "^0.8.0",
+    "xterm-addon-canvas": "^0.4.0",
+    "xterm-addon-fit": "^0.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
